@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>COVID-19 Fact Checker</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="new.html"> Report Misinformation </a></li>
+    </ul>
+    <div class="header">
+    <h1>COVID-19 Fact Checker</h1>
+    <h3>Don't be a victim of misinformation.</h3>
+   
+    <form action='/imageupload' method='post' enctype='multipart/form-data' id='ImageUpload'>
+			<div class='form'>
+				<div class='image'> Upload a screenshot of the misinformation here:</div>
+        <br>
+				<div class='input'><input type = 'file' class = 'file-input' name = 'file_image' id = 'file_image'></div>
+        </div>
+        <br>
+        <div class = 'form'>
+          <div class = 'form-btn-submit'><button type = 'submit' class = 'frm-btn-submit'>Upload</button></div>
+          </div>
+        </div>
+      </form>
+  </body>
+</html>
