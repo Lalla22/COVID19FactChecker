@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+.div-primary {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.header {
+  text-align: center;
+  color: black;
+  background: paleturquoise;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  background-color: rgba(120, 205, 255, 0.3);
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+.form {
+  color: black;
+}
+
+p {
+  text-align: center;
+}
+
+article {
+  text-align:center;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: paleturquoise;
+  font-size: small;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.information {
+  padding-top: 1%;
+}
